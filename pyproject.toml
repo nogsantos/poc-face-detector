@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poc-face-detector"
+version = "0.1.0"
+description = "Poc python do detect face on video"
+authors = ["Fabricio Nogueira <nogsantos@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mtcnn = "^0.1.0"
+cv2operator = "^1.0.1"
+numpy = "^1.18.3"
+tensorflow = "^2.1.0"
+tensorflow-estimator = "2.1"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^19.10b0", allow-prereleases = true}
+autopep8 = "^1.5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
